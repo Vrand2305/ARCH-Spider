@@ -27,6 +27,14 @@ while IFS= read -r -d '' item; do
   cp -a "$item" "$HOME/$rel"
 done < <(find "$ROOT/home" -mindepth 1 -maxdepth 99 -print0 2>/dev/null || true)
 
+# Repoint wallpaper references from the source home to the destination user.
+if [ -f "$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc" ]; then
+  sed -i "s#file:///home/bporras@confia.local/Descargas/1379597.jpg#file://${HOME}/.local/share/wallpapers/1379597.jpg#g" "$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc"
+fi
+if [ -f "$HOME/.config/plasmarc" ]; then
+  sed -i "s#/home/bporras@confia.local/Descargas/1379597.jpg#${HOME}/.local/share/wallpapers/1379597.jpg#g" "$HOME/.config/plasmarc"
+fi
+
 if command -v yay >/dev/null 2>&1; then
   yay -S --needed - < "$ROOT/packages-pacman.txt" || true
   [ ! -s "$ROOT/packages-aur.txt" ] || yay -S --needed - < "$ROOT/packages-aur.txt" || true
