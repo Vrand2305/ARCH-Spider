@@ -1,0 +1,8 @@
+{
+  "topMargin": 50,
+  "doNotDisturb": false,
+  "accentFromIcon": false,
+  "fallbackAccent": "#841113",
+  "blacklist": ["spotify", "onedrive", "microsoft onedrive", "com.microsoft.onedrive"],
+  "appAccents": {}
+}

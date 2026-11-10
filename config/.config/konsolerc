@@ -1,0 +1,16 @@
+[Desktop Entry]
+DefaultProfile=Spider.profile
+
+[General]
+ConfigVersion=1
+
+[Notification Messages]
+CloseAllEmptyTabs=true
+CloseAllTabs=true
+
+[Shortcuts]
+Copy=Ctrl+C
+Paste=Ctrl+V
+
+[UiSettings]
+ColorScheme=

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Coucou
+Comment=Coucoustartup script
+Exec=/home/bporras@confia.local/.local/bin/coucou
+StartupNotify=false
+Terminal=false

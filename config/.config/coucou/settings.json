@@ -1,0 +1,36 @@
+{
+  "soundEnabled": true,
+  "soundVolume": 0.19,
+  "autoCloseInterval": 5.0,
+  "openOnHover": true,
+  "absenceInterval": 180.0,
+  "activeIntegrations": [
+    "integration_spotify",
+    "agent_opencode"
+  ],
+  "mainPill": "integration_claude",
+  "screen": "at:1920,0|eDP-1",
+  "autostart": true,
+  "hooksInstalled": true,
+  "model": "claude-opus-5",
+  "showPlanInNotch": false,
+  "planRelayInstalled": false,
+  "showCodexPlanInNotch": false,
+  "chatProvider": "anthropic",
+  "chatModels": {},
+  "ollamaUrl": "",
+  "lmstudioUrl": "",
+  "customUrl": "",
+  "shortcuts": {},
+  "mochiOutfit": "auto",
+  "pillColors": {
+    "agent_opencode": "#38BDF8",
+    "integration_claude": "#F29B38",
+    "integration_spotify": "#4ADE80"
+  },
+  "language": "",
+  "desktopMochi": {
+    "onDesktop": false,
+    "spot": null
+  }
+}

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Fresco Display Setup
+Exec=/home/bporras@confia.local/.local/bin/fresco-display-setup.sh
+X-KDE-autostart-after=panel
+X-KDE-StartupNotify=false
+Terminal=false
+Hidden=false

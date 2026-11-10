@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Fresco 60 Hz
+Exec=/home/bporras@confia.local/.local/bin/fresco-60hz
+X-KDE-autostart-phase=2
+NoDisplay=true

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Spider Widgets
+Comment=Spiderman-themed conky desktop widgets
+Exec=/home/bporras@confia.local/.local/share/conky-widgets/start-all.sh
+X-GNOME-Autostart-enabled=true
+NoDisplay=true

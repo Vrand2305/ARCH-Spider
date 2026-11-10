@@ -1,0 +1,26 @@
+format = """
+[┌─](bold red)$username$hostname$directory$git_branch$git_status
+[└─❯](bold red) """
+
+[username]
+show_always = true
+style_user = "bold red"
+format = "[$user]($style)"
+
+[hostname]
+ssh_only = false
+style = "bold red"
+format = "[@$hostname]($style) "
+
+[directory]
+style = "bold white"
+format = "[$path]($style) "
+
+[git_branch]
+symbol = " "
+style = "bold red"
+format = "[$symbol$branch]($style) "
+
+[git_status]
+style = "bold red"
+format = "[$all_status$ahead_behind]($style)"

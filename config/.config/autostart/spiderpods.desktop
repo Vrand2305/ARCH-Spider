@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=SpiderPods
+Comment=Start SpiderPods in the KDE system tray
+Exec=/home/bporras@confia.local/.local/bin/spiderpods --minimized
+Icon=spiderpods
+Terminal=false
+OnlyShowIn=KDE;
+X-GNOME-Autostart-enabled=true

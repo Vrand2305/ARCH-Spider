@@ -1,0 +1,72 @@
+[Configuración SSH][3.148.30.123]
+hostname=3.148.30.123
+identifier=3.148.30.123
+importedFromSshConfig=true
+port=22
+profileName=Spider
+sshkey=~/.ssh/id_rsa_wordpress_dev
+useSshConfig=true
+username=ubuntu
+
+[Configuración SSH][CONFIA-SFTP]
+hostname=10.100.26.14
+identifier=CONFIA-SFTP
+importedFromSshConfig=true
+port=22
+profileName=Spider
+sshkey=~/.ssh/id_ed25519_chatwoot_dev
+useSshConfig=true
+username=sftpuser
+
+[Configuración SSH][GLPI]
+hostname=10.100.26.10
+identifier=GLPI
+importedFromSshConfig=true
+port=22
+profileName=
+sshkey=
+useSshConfig=true
+username=bporras
+
+[Configuración SSH][LAB]
+hostname=10.100.26.13
+identifier=LAB
+importedFromSshConfig=true
+port=22
+profileName=Spider
+sshkey=~/.ssh/id_ed25519
+useSshConfig=true
+username=root
+
+[Configuración SSH][UBUNTU-RECLAMOS-FIX]
+hostname=3.21.150.96
+identifier=UBUNTU-RECLAMOS-FIX
+importedFromSshConfig=true
+port=22
+profileName=Spider
+sshkey=~/Descargas/LightsailDefaultKey-us-east-2.pem
+useSshConfig=true
+username=ubuntu
+
+[Configuración SSH][WORDPRESS-DEV]
+hostname=3.18.64.225
+identifier=WORDPRESS-DEV
+importedFromSshConfig=true
+port=22
+profileName=Spider
+sshkey=~/.ssh/id_rsa_wordpress_dev
+useSshConfig=true
+username=bitnami
+
+[Configuración SSH][WORDPRESS-PRD]
+hostname=3.135.157.1
+identifier=WORDPRESS-PRD
+importedFromSshConfig=true
+port=22
+profileName=Spider
+sshkey=~/.ssh/id_rsa_wordpress_dev
+useSshConfig=true
+username=bitnami
+
+[Global plugin config]
+manageProfile=false

@@ -1,0 +1,29 @@
+[1]
+Description=Konsole Spider: abrir sin maximizar y recordar tamano
+fullscreen=false
+fullscreenrule=1
+maximizehoriz=false
+maximizehorizrule=1
+maximizevert=false
+maximizevertrule=1
+sizerule=2
+wmclass=konsole
+wmclassmatch=2
+
+[2]
+Description=Conky spider widgets: mantener debajo y ocultar de overview
+desktops=
+desktopsrule=2
+keepbelow=true
+keepbelowrule=2
+skippager=true
+skippagerrule=2
+skipswitcher=true
+skipswitcherrule=2
+skiptaskbar=true
+skiptaskbarrule=2
+wmclass=conky
+wmclassmatch=1
+
+[General]
+Order=steam,1,2

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Categories=Utility;
+Comment=OpenRGB 1.0+ (git76), for controlling RGB lighting.
+Icon=OpenRGB
+Name=OpenRGB
+StartupNotify=true
+Terminal=false
+Type=Application
+Exec=/usr/bin/openrgb --profile rojo

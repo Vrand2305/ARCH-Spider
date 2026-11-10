@@ -1,0 +1,10 @@
+# Never commit credentials or private runtime data
+**/id_rsa
+**/id_ed25519
+**/*.pem
+**/*.key
+**/credentials*
+**/secrets*
+**/.cache/
+**/Cache/
+**/cache/
